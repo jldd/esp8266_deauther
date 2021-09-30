@@ -63,12 +63,12 @@
 	"setting_chtime": "Tiempo de escaneo de un canal antes di pasar al sucesivo en milisegundos (sólo si el pase de canales está habilitado).",
 	"setting_minDeauths": "Número mínimo de marcos de desautentifiación durante el escaneo para cambiar el modo led en 'Deauth'.",
 	"setting_attacktimeout": "Después de cuanto tiempo (en segundos) el ataque se detendrá automaticamente.\nConfigurarlo en 0 para deshabilitarlo.",
-	"setting_forcepackets": "Cuantos tentativos de envío de un paquete.\nConfigurar este valor más alto si se desea obtener una mejor velocidad de paquetes en un área ocupada.\nCuidado, esta configuración puede hacer que el dispositivo vaya más lento o hacerlo más inestable.\n¡El valor máximo es 255!",
+	"setting_forcepackets": "Cuantos intentos de envío de un paquete.\nConfigurar este valor más alto si se desea obtener una mejor velocidad de paquetes en un área ocupada.\nCuidado, esta configuración puede hacer que el dispositivo vaya más lento o hacerlo más inestable.\n¡El valor máximo es 255!",
 	"setting_deauthspertarget": "Cuantos marcos de desautentifiación y desasociación son enviados para cada blanco.",
 	"setting_deauthReason": "El código de motivo que se envía con los marcos tipo \"deauth\" para indicar al dispositivo de destino por qué la conexión será terminada.",
 	"setting_beaconchannel": "Si se habilita, se enviarán todos los marcos en diferentes canales durante la ejecución de un ataque tipo 'Beacon'.",
 	"setting_beaconInterval": "Habilitado los Beacons serán enviados cada segundo. Deshabilitado, el intervalo será de 100 ms.\nUn intervalo más largo significa mayor estabilidad y menos 'spammeo' de los paquetes, pero podría nesecitar más tiempo hasta que los clientes encuentren los SSID durante el escaneo.",
 	"setting_randomTX": "Habilita la potencia de transmisión aleatoria para el envío de peticiones de marcos 'Beacons' y 'Probe'.",
 	"setting_probesPerSSID": "Cantidad de marcos de peticiones 'Probe' enviados para cada SSID.",
-	"setting_lang": "Idioma predefinido para la interfaz web.\n¡Verifica que el archivo del idioma exista previamente!"
+	"setting_lang": "Idioma establecido para la interfaz web.\n¡Verifica que el archivo del idioma exista previamente!"
 }
